@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import urllib.request                                       
-html = urllib.request.urlopen("file:///C:/Users/Rodrigo/Desktop/helloWordPy/emcartazVarios.html").read()
+html = urllib.request.urlopen("file:///C:\Android\python/filmes-cartaz-json/sample_docs/emcartazVarios.html").read()
 soup = BeautifulSoup(html, "html.parser")
 
 #PERCORRE TODOS DATABOX
